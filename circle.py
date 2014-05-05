@@ -15,7 +15,7 @@ def circle(diameter):
     circle1(diameter * pi / 360)
 
 
-def poly(sides, size):
+def polygon(sides, size):
     for i in range(sides):
         fd(size)
         rt(360./sides)
@@ -26,6 +26,6 @@ ht()
 #circle1(2)
 #circle1(.5)
 circle(100)
-poly(4, 100)
+polygon(4, 100)
 st()
 done()
